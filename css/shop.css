@@ -1,0 +1,420 @@
+* {
+    box-sizing: border-box;
+
+}
+:root {
+    --premery-color: #b80257;
+    --text-color: #ffffff;
+}
+.font4rem {
+    font-size: 4rem;
+}
+.font-text {
+    font-size: 1.6rem;
+}
+html {
+    font-size: 62.5%;
+    font-family: "Source Sans 3", sans-serif;
+}
+h1, h2 ,h3 ,h4, h5, h6 {
+    font-family: "PT Sans", sans-serif;
+}
+
+.inner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://themazine.com/html/scholars-lms/images/home/banner-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* start header form */
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.heaer-half {
+    min-height: 496px;
+    width: 1170px;
+    margin: 0 auto;
+    padding: 40px 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-grow: 1;
+    color: var(--text-color);
+
+}
+
+.header-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-form {
+    display: flex;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    gap: 30px;
+}
+.header-content h1 {
+    font-size: 3rem;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+.header .icon {
+    display: flex;
+}
+.header-form > li > a {
+    display: flex;
+    flex-grow: 1;
+    color: var(--text-color);
+    text-decoration: none;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    font-family: "PT Sans", sans-serif;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.header-content > p {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+.header-content > h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+
+}
+
+a > i {
+    display: inline-block;
+    font-size: 1.8rem;
+    color: var(--text-color);
+}
+.breadcrumb {
+    font-size: 1.6rem;
+    display: flex;
+    color: var(--text-color);
+    gap: 30px;
+}
+
+.breadcrumb > li {
+    font-size: 1.6rem;
+}
+.breadcrumb > li > a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.6rem;
+    padding: 5px 10px;
+    background-color: var(--premery-color);
+    border-radius: 10px;
+}
+
+/* start content */
+.content {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+}
+.wrap-futere {
+    width: 1170px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+.future {
+    display: flex;
+
+}
+.future > .icon {
+    font-size: 4rem;
+    margin-right: 10px;
+}
+.future > p {
+    font-size: 2rem;
+    margin: auto 0;
+}
+.find-course {
+    width: 100%;
+    background-image: url(https://themazine.com/html/scholars-lms/images/home/1.jpg);
+    height: 460px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 100px;
+}
+.future-course-title {
+    margin-bottom: 100px;
+    text-align: center;
+}
+.inner-find {
+    width: 1170px;
+    margin: 0 auto;
+
+}
+.find-title {
+    padding: 65px;
+    text-align: center;
+    color: var(--text-color);
+}
+.find-title > h1 {
+    font-size: 4rem;
+}
+.find-title > p {
+    font-size: 1.6rem;
+}
+.wrap-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.find-input {
+    padding: 15px 50px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    margin-bottom: 30px;
+}
+.fint-search-course {
+    display: flex;
+    justify-content: center;
+}
+.btn-course {
+    width: 200px;
+    height: 50px;
+    background-color: var(--premery-color);
+    border-radius: 25px;
+    color: var(--text-color);
+}
+.wrap-future {
+    width:  1170px;
+    min-height: 100vh;
+    margin-bottom: 100px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.future-course {
+    width: inherit;
+}
+.future-price {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.box {
+    width: 30%;
+    height: 30%;
+    border: 1px solid #111;
+}
+.box-img {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box-h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.box-text {
+    margin: 10px;
+}
+.box-p {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+.box:hover{
+    border: 2px solid #360d87;
+}
+.left {
+    display: flex;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mr10 {
+    margin-right: 10px;
+    margin: auto 0;
+}
+.left-img {
+    display: flex;
+    align-items: center;
+}
+.btn {
+    padding: 5px 10px;
+    background-color: #783df0;
+    border-radius: 15px;
+    color: var(--text-color);
+}
+.btn:hover {
+    box-shadow: inset 8px 5px 15px #a2a7eb,
+    inset -8px -8px 15px #bda1f4;
+}
+.btn-all-course {
+    padding: 20px 50px;
+    background-color:var(--premery-color);
+    border-radius: 25px;
+    color: var(--text-color);
+    font-size: 1.6rem;
+}
+.btn-all-course:hover {
+    background-color: #4f3dd3;
+}
+.wrap-level {
+    width: 100%;
+    height: 341px;
+    background-color: #783df0;
+    margin-bottom: 100px;
+}
+.level {
+    padding-top: 100px;
+    background-image: url(./img/download.png);
+    width:  1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.level-text {
+    margin-bottom: 80px;
+}
+.level-btn {
+    padding: 15px 50px;
+    color: var(--text-color);
+    background-color: #9c7ae0;
+    border-radius: 25px;
+    font-size: 1.6rem;
+}
+.level-btn:hover {
+    background-color: #b80257;
+}
+.table {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    opacity: 0.8;
+}
+.table-box {
+    border: 1px solid #111;
+    border-radius: 8px;
+    width: 25%;
+    min-height: 25%;
+}
+.table-box:hover {
+    border: 2px solid #312ec8;
+}
+.price-btn:hover {
+    background-color: #4341c2;
+}
+.wrap-table {
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+.table-title {
+    margin-bottom: 100px;
+}
+.table-title > h1 {
+    margin-bottom: 10px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.month {
+    align-content: flex-end;
+}
+.table-box > h1 {
+    font-size: 3rem;
+    border-bottom: 1px solid #111;
+    padding: 20px 60px;
+}
+.lish-table {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+}
+.price-btn {
+    padding: 10px 30px;
+    background-color: #ffffff;
+    border: 1px solid #111;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+
+/* start footer */
+
+.footer {
+    display: flex;
+    margin-top: 80px;
+    color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+    background-color: #111;
+    padding: 80px 0 160px 0;
+}
+.footer-wrap {
+    max-width: 1170px;
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+}
+.footer-img {
+    width: 180px;
+    height: 40px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+}
+.footer-logo {
+    width: 25%; 
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+}
+.footer-list {
+    width: 16.6666%;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-list > li >a {
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-btn {
+    padding: 5px 15px;
+    background-color: var(--premery-color);
+    color: var(--text-color);
+    
+}
+.footer-last {
+    width: 25%;
+}
+.footer-input {
+    background-color: #272727;
+    border-radius: 15px;
+    padding: 5px 10px;
+}
+.footer-btn {
+    color: #272727;
+    border-radius: 15px;
+}
+.footer-list > li > .title {
+    font-size: 2rem;
+    color: var(--text-color);
+}
