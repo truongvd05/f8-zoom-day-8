@@ -441,3 +441,18 @@ div > a > i {
     color: var(--text-color);
     margin-bottom: 20px;
 }
+
+/*  */
+
+
+.heading-pages {
+    margin-bottom: 30px;
+    margin-right: 30px;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+.heading-pages i {
+    font-size: 5em;
+    color: var(--premery-color);
+}
