@@ -9,6 +9,7 @@
 }
 .font4rem {
     font-size: 4rem;
+    margin-bottom: 10px;
 }
 .font-text {
     font-size: 1.6rem;
@@ -414,6 +415,7 @@ a > i {
     min-height: 25%;
     transform: scale(1 , 1);
     transition: all 0.4s linear;
+    color: rgba(0, 0, 0, 0.8);
 }
 .table-box:hover {
     transform: scale(1 , 1.05);
@@ -440,6 +442,9 @@ a > i {
     display: flex;
     justify-content: center;
     padding: 20px;
+}
+.price-font {
+    font-size: 6rem;
 }
 .month {
     align-content: flex-end;
