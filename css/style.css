@@ -286,21 +286,24 @@ div > a > i {
     overflow: hidden;
 }
 .box-img-font::before {
-    content: '';
-    font-family: 'font-awesome';
-    font-size: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    content: '\f0e7';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 800;
+    font-size: 2rem;
+    padding-bottom: 12px;
+    top: -62px;
+    right: -68px;
     color: #fff;
     width: 140px;
     height: 100px;
     position: absolute;
-    top: -120px;
-    right: -100px;
+    transform: rotate(40deg);
     z-index: 1;
-    transform: rotate(35deg);
-    padding: 64px 0 0 53px;
     background-color: var(--premery-color);
 }
-
 .box-text {
     padding: 10px;
 }
