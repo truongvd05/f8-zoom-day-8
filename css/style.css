@@ -43,7 +43,6 @@ h1, h2 ,h3 ,h4, h5, h6 {
     align-items: center;
     justify-content: center;
     color: var(--text-color);
-    flex-grow: 1;
 }
 
 .header-wrap {
@@ -143,7 +142,8 @@ h1 {
     color: var(--text-color);
 }
 .breadcrumb > li > a::after {
-    content: " / ";
+    content: "/";
+    padding: 0 5px;
 }
 .breadcrumb > li {
     margin: auto;
@@ -214,7 +214,7 @@ div > a > i {
     font-size: 1.5rem;
 }
 .ul-search > li {
-    padding-left: 20px;
+    padding: 0 20px;
 }
 .ul-search > li > a{
     opacity: 0.8;
