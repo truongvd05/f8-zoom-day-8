@@ -67,17 +67,22 @@ h1, h2 ,h3 ,h4, h5, h6 {
     left: 0;
     min-width: 200px;
     background-color: var(--text-color);
-    max-height: 0;
-    overflow: hidden;
-    visibility: hidden;
+    /* max-height: 0; */
+    opacity: 0;
+    transform: scaleY(0);
+    transform-origin: top center;
+    /* overflow: hidden; */
+    /* visibility: hidden; */
     /* transform: scale(0); */
-    transition: all 0.8s linear;
+    transition: all 0.3s linear;
     color: #111;
 }
 .header-form > .header-form-li:hover .header-form-navbar{
     /* transform: scale(1); */
-    max-height: 500px;
-    visibility:visible;
+    /* max-height: 500px; */
+    /* visibility:visible; */
+    transform: scaleY(1);
+    opacity: 1;
 }
 
 .header-form > li > a {
@@ -272,6 +277,8 @@ div > a > i {
 }
 .box-img {
     position: relative;
+    overflow: hidden;
+
 }
 .box-img img{
     top: 0;
@@ -282,10 +289,11 @@ div > a > i {
     transform: scale(1);
     transition: all 0.4s linear;
 }
-
+.box-main {
+    display: block;
+}
 .box:hover .box-main {
-    transform: scale3D(1.1, 1.1, 1);
-    overflow: hidden;
+    transform: scale3D(1.1, 1.1, 1.1);
 }
 .box-img-font::before {
     display: flex;

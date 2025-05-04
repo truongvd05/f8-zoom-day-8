@@ -76,7 +76,8 @@ body {
     background-color: var(--text-color);
     /* max-height: 0; */
     /* overflow: hidden; */
-    visibility: hidden;
+    /* visibility: hidden; */
+    opacity: 0;
     transform: scaleY(0);
     transform-origin: top center;
     transition: all 0.3s linear;
@@ -85,7 +86,8 @@ body {
 .header-form > li:hover .header-form-navbar {
     /* max-height: 500px; */
     transform: scaleY(1);
-    visibility: visible;
+    opacity: 1;
+    /* visibility: visible; */
 }
 .header-form-navbar > li > a {
     padding-left: 10px;
